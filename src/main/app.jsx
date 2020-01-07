@@ -1,5 +1,8 @@
 import React from 'react';
+import Container from '../components/container';
 
 export default props => (
-  <div> Hello World! </div>
+  <Container>
+    <div> Hello World! </div>
+  </Container>
 );
