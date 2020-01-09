@@ -4,10 +4,11 @@ export const font2 = 'Georgia, serif';
 export const montserrat = 'montserrat';
 
 // Pallet colors
+export const colorWhite = '#ffffff';
 export const colorPrimary = '#00b25a';
-
-// primary colors
-export const colorGreenDark = '#50ae7e';
+export const colorDarkGolden = '#c17c13';
+export const colorOrange01 = '#FF8333';
+export const colorOrange02 = '#FF9933';
 
 // gray scale
 export const colorGray01 = '#222222';
