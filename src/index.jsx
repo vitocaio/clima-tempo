@@ -7,8 +7,8 @@ import ReactDOM from 'react-dom'
 // import multi from 'redux-multi'
 // import thunk from 'redux-thunk'
 import { ThemeProvider } from 'styled-components';
-import './style/global';
-import theme from './style';
+import './styles/global';
+import theme from './styles';
 
 import App from './main/app'
 // import reducers from './main/reducers'

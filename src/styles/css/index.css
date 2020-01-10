@@ -16,10 +16,11 @@
   body {
     height: 100%;
     margin: 0;
+    padding: 0;
     font-family: montserrat, sans-serif;
 
-    background-color: #FF8C00; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to bottom right, #FF8C00, #F0E68C); /* Standard syntax (must be last) */
+    background-color: #FF8C00;
+    background-image: linear-gradient(to bottom right, #FF8C00, #F0E68C);
     background-attachment: fixed;
   }  
 
@@ -27,7 +28,7 @@
     font-size: 1.7em;
     font-weight: 200;
   }
-
+  /* Remove Focus dos browsers */
   textarea:focus, input:focus, select:focus, button:focus {
     box-shadow: 0 0 0 0;
     border: 1px solid #c0c2c3;

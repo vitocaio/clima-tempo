@@ -11,6 +11,11 @@ const Input = styled.input`
   font-weight: bold;
 `;
 
+const Icon = styled.img`
+`;
+
 export default (props) => (
-  <Input placeholder={props.placeholder} />
+  <div>
+    <Input placeholder={props.placeholder} />
+  </div>
 )
