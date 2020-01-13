@@ -28,6 +28,11 @@
     font-size: 1.7em;
     font-weight: 200;
   }
+
+  a {
+    font-size: 0.8em;
+  }
+
   /* Remove Focus dos browsers */
   textarea:focus, input:focus, select:focus, button:focus {
     box-shadow: 0 0 0 0;
