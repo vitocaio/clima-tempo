@@ -17,8 +17,14 @@ const StyledButton = styled.button`
     }
 `;
 
-export default (props) => (
-  <StyledButton>
-    {props.label}
-  </StyledButton>
-)
+function Button({
+  ...props
+}) {
+  return (
+    <StyledButton {...props}>
+      {props.label}
+    </StyledButton>
+  )
+}
+
+export default Button;

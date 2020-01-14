@@ -11,6 +11,13 @@ const Alink = styled.a`
     }
 `;
 
-export default () => (
-  <Alink> voltar </Alink>
-);
+function Link ({
+  ...props
+})
+{
+  return ( 
+    <Alink {...props}> voltar </Alink>
+  )
+}
+
+export default Link;
