@@ -1,7 +1,7 @@
 import React from 'react'; 
 import styled from 'styled-components';
 
-const Input = styled.input`
+const StyledInput = styled.input`
   width: 100%;
   border: solid 1px ${props => props.theme.colorGray06};
   border-radius: 5px;
@@ -11,11 +11,10 @@ const Input = styled.input`
   font-weight: bold;
 `;
 
-const Icon = styled.img`
-`;
-
-export default (props) => (
-  <div>
-    <Input placeholder={props.placeholder} />
-  </div>
+const Input = ({
+  ...props
+}) => (
+  <StyledInput placeholder={props.placeholder} {...props} />
 )
+
+export default Input;

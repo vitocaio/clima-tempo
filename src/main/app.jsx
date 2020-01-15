@@ -15,6 +15,9 @@ import Grid from '../templates/grid';
 
 function App() {
   const [tempoAgora, setTempoAgora] = useState(true);
+  const [city, setCity] = useState('');
+
+  console.log(city);
 
   return (
     <Content>
@@ -23,7 +26,7 @@ function App() {
         {tempoAgora ? (
           <Row>
             <Grid cols="12 12 12 12">
-              <Input placeholder="Digite a sua cidade"/>
+              <Input type="text" placeholder="Digite a sua cidade" onChange={e => setCity(e.target.value)}/>
               <Button label="buscar" onClick={ () => setTempoAgora(false) } />
             </Grid>
           </Row>
