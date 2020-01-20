@@ -13,11 +13,14 @@ import Rowback from '../templates/rowback';
 import Row from '../templates/row';
 import Grid from '../templates/grid';
 
+import getCidades from '../services/consultatempo';
+
 function App() {
   const [tempoAgora, setTempoAgora] = useState(true);
   const [city, setCity] = useState('');
 
   console.log(city);
+  console.log(getCidades);
 
   return (
     <Content>
